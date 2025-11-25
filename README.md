@@ -80,7 +80,10 @@ RandomizedSearchCV is used to efficiently search for the best model parameters (
 ## 🎯 **Step 2.4: F1-Score Threshold Tuning (Critical Step)**
 
 Since the raw XGBoost output is a probability, the standard 0.5 threshold may not be optimal for a skewed dataset. This step finds the specific probability threshold that maximizes the F1-Score on the test set by analyzing the Precision-Recall curve.
-https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQNQTlUrAHqyrhxy994Rj3QQZw6BeU_g9eQggR0y-K34CitMj9Rf4dsGLeZP4n3NAxL86z0koHFhDrPTgsfkmHaLPkzIedNzfkD-wlSJn3iEHyIPAI
+
+<img width="2048" height="1393" alt="image" src="https://github.com/user-attachments/assets/58d49785-6b21-4742-ac58-8cf586c3d8e5" />
+
+
 ---
 
 ## ▶️ **Execution**
@@ -127,7 +130,9 @@ The dashboard.py provides a clean, interactive front-end for testing the API.
 * **Prediction:** Sent to Flask /predict endpoint.
 * **Visualization:** Sends data to /explain to generate SHAP Waterfall Plot.
 
-https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTMZlhi-tutvueJNBiiIr7eRBqaUGWapKAo5VLMtEj6TDg7RTi75NFPm8gXBpI7aaErfkjYSEJNe1gl_8-3acDIq__uMC9ZWrNaQARdtCrXx68PoFc
+<img width="3999" height="2499" alt="image" src="https://github.com/user-attachments/assets/d046e482-f01e-4cdc-9868-7df1e48aa718" />
+
+
 ### Execution
 
 ```
@@ -136,6 +141,3 @@ streamlit run dashboard.py
 
 The dashboard will open in your browser, allowing you to interact with the deployed AI model.
 
-
-If you want this placed **inside a README.md file on canvas**, tell me:
-👉 **"Create README.md file"**
