@@ -81,7 +81,8 @@ RandomizedSearchCV is used to efficiently search for the best model parameters (
 
 Since the raw XGBoost output is a probability, the standard 0.5 threshold may not be optimal for a skewed dataset. This step finds the specific probability threshold that maximizes the F1-Score on the test set by analyzing the Precision-Recall curve.
 
-<img width="2048" height="1393" alt="image" src="https://github.com/user-attachments/assets/58d49785-6b21-4742-ac58-8cf586c3d8e5" />
+<img width="1460" height="842" alt="image" src="https://github.com/user-attachments/assets/b6bc1518-aa6e-4724-9542-5267383d422e" />
+
 
 
 ---
@@ -130,7 +131,8 @@ The dashboard.py provides a clean, interactive front-end for testing the API.
 * **Prediction:** Sent to Flask /predict endpoint.
 * **Visualization:** Sends data to /explain to generate SHAP Waterfall Plot.
 
-<img width="3999" height="2499" alt="image" src="https://github.com/user-attachments/assets/d046e482-f01e-4cdc-9868-7df1e48aa718" />
+<img width="1879" height="909" alt="Screenshot 2025-11-25 152900" src="https://github.com/user-attachments/assets/bff7d7db-1a19-41b5-9ef6-5d11b6bbc2ec" />
+
 
 
 ### Execution
